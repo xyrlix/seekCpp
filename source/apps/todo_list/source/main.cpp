@@ -1,7 +1,14 @@
+/**
+ * @file    : main.cpp
+ * @brief   : todo_list main function
+ * @author  : xyrlix (xyrlix@outlook.com)
+ * @date    : 2025-10-04 12:49:29
+ * @copyright: Copyright (c) 2025 Seek Dao
+ */
+
 #include <iostream>
-using namespace std;
 
 int main() {
-    cout << "hello todolist\n";
+    std::cout << "hello todolist\n";
     return 0;
 }

@@ -2,7 +2,6 @@
 set(THIS_MYLIB_NAME "mymodule1")
 
 add_library(${THIS_MYLIB_NAME} SHARED
-    source/md1.cpp
     source/module1.cpp
 )
 

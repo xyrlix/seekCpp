@@ -1,3 +1,11 @@
+/**
+ * @file    : comm_def.h
+ * @brief   : common define header file
+ * @author  : xyrlix (xyrlix@outlook.com)
+ * @date    : 2025-10-04 12:54:12
+ * @copyright: Copyright (c) 2025 Seek Dao
+ */
+
 #ifndef COMM_DEF_H
 #define COMM_DEF_H
 
