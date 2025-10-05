@@ -1,3 +1,5 @@
+#pragma once
+
 /**
  * @file    : data_def.h
  * @brief   : Using to define for todo_list common header files.
