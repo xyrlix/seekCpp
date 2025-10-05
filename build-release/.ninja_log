@@ -1,7 +1,0 @@
-# ninja log v5
-2	1105	1759626614452898251	libs/module1/CMakeFiles/mymodule1.dir/source/module1.cpp.o	b41d34e045157c57
-2	1386	1759626614733896497	source/apps/todo_list/CMakeFiles/app1.dir/source/app1.cpp.o	abb05520dc4c7dc5
-2	1397	1759626614744896428	source/apps/todo_list/CMakeFiles/app1.dir/source/main.cpp.o	9e9257ebaa40b594
-1	1398	1759626614745896422	libs/module1/CMakeFiles/mymodule1.dir/source/md1.cpp.o	780e63e3436b5a6f
-1398	1437	1759626614783896185	/workspace/seekCpp/output/lib/mymodule1/libmymodule1.so	76fb1d0d536bd5f3
-1437	1504	1759626614850895766	/workspace/seekCpp/output/bin/app1/app1	f90393df8768b786

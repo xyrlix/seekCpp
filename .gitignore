@@ -42,5 +42,5 @@
 
 # custom
 *.cache
-*build
+*build*
 *output
