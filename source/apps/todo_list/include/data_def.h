@@ -6,12 +6,17 @@
  * @copyright: Copyright (c) 2025 Seek Dao
  */
 
-// 定义待办数据结构
-struct TodoTaskNode {
-    uint32_t id;                // 任务id
-    bool is_completed;          // 是否完成
-    std::string name;           // 任务名称
-    std::string descript;       // 描述
-    std::int64_t begin_ts_sec;  // 任务开始时间
-    std::int64_t end_ts_sec;    // 任务结束时间
+struct TaskNode {
+    uint32_t id;                // task id
+    bool is_completed;          // Is it completed?
+    std::string name;           // Task Name
+    std::string descript;       // Task Description
+    std::int64_t begin_ts_sec;  // Task start time
+    std::int64_t end_ts_sec;    // Task end time
+};
+
+struct UserNode {
+    std::string username;       // username
+    std::string location;       // Login location
+    std::int64_t login_ts_sec;  // login time
 };
