@@ -1,0 +1,20 @@
+# 生成共享库
+set(THIS_MYLIB_NAME "mymodule1")
+
+add_library(${THIS_MYLIB_NAME} SHARED
+    source/md1.cpp
+    source/module1.cpp
+)
+
+# 包含目录
+target_include_directories(${THIS_MYLIB_NAME}
+    PUBLIC
+        ${CMAKE_CURRENT_SOURCE_DIR}/include
+)
+
+# Set output directory
+set_target_properties(${THIS_MYLIB_NAME} PROPERTIES
+    RUNTIME_OUTPUT_DIRECTORY ${CMAKE_RUNTIME_OUTPUT_DIRECTORY}/${THIS_MYLIB_NAME}
+    LIBRARY_OUTPUT_DIRECTORY ${CMAKE_LIBRARY_OUTPUT_DIRECTORY}/${THIS_MYLIB_NAME}
+    ARCHIVE_OUTPUT_DIRECTORY ${CMAKE_ARCHIVE_OUTPUT_DIRECTORY}/${THIS_MYLIB_NAME}
+)

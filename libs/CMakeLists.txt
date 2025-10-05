@@ -1,0 +1,2 @@
+# 添加所有库模块
+add_subdirectory(module1) 
