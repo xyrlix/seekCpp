@@ -6,6 +6,8 @@
  * @copyright: Copyright (c) 2025 Seek Dao
  */
 
+#include "user_login.h"
+
 #include "../include/login.h"
 
 UserLoginFileSystem::UserLoginFileSystem() {}
@@ -24,5 +26,20 @@ bool UserLoginFileSystem::register_user(const std::string& username, const std::
 
 bool UserLoginFileSystem::sign_out() {
     // TODO: Implement sign out logic here
+    return true;
+}
+
+bool UserLoginFileSystem::check_user_login_status() {
+    // TODO: Implement is signed in logic here
+    return true;
+}
+
+bool UserLoginFileSystem::is_user_registered(const std::string& username) {
+    // TODO: Implement is user registered logic here
+    return true;
+}
+
+bool UserLoginFileSystem::delete_user(const std::string& username) {
+    // TODO: Implement delete user logic here
     return true;
 }

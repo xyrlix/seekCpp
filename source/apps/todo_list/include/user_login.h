@@ -88,6 +88,22 @@ class UserLoginBase {
     virtual bool add_user_to_save_data(const std::string& user_name, const std::string& password) = 0;
 
     /**
+     * @brief   : Delete user from database
+     * @param   : user_name - user name
+     * @return  : true - delete success, false - delete failed
+     */
+    virtual bool delete_user_from_save_data(const std::string& user_name) = 0;
+
+    /**
+     * @brief   : Update user password
+     * @param   : user_name - user name
+     * @param   : old_password - old password
+     * @param   : new_password - new password
+     * @return  : true - update success, false - update failed
+     */
+    virtual bool update_user_password(const std::string& user_name, const std::string& old_password, const std::string& new_password) = 0;
+
+    /**
      * @brief   : Get user node by user name
      * @param   : user_name - user name
      * @return  : user node - user node if found, nullptr - user node not found
