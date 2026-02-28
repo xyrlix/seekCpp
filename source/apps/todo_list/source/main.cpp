@@ -1,14 +1,19 @@
 /**
  * @file    : main.cpp
- * @brief   : todo_list main function
+ * @brief   : demo app1
  * @author  : xyrlix (xyrlix@outlook.com)
- * @date    : 2025-10-04 12:49:29
+ * @date    : 2025-10-04 13:32:42
  * @copyright: Copyright (c) 2025 Seek Dao
  */
 
 #include <iostream>
 
+#include "../include/todo_list.h"
+
 int main() {
-    std::cout << "hello todolist\n";
+    
+    // 创建待办事项列表管理器
+    todo_list::TodoListManager todo_manager;
+    todo_manager.run();
     return 0;
 }
